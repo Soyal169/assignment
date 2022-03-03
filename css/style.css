@@ -6,7 +6,10 @@
 
 header{
 	background-color:violet;
-	height: 40%;
+	
+}
+body{
+	background-color: lightgreen;
 }
 
 ul{
@@ -22,7 +25,7 @@ ul li{
 }
 
 ul li a{
-	text-decoration: none;
+	text-decoration: initial;
 	color: #361515;
 	padding: 7px;
 	border: 1px solid #110202;
@@ -34,4 +37,51 @@ ul li a:hover
 	background-color: #fff;
 	color: #361515;
 }
-img{size: 400px;}
+
+
+form{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  
+
+
+
+
+}
+div#first{
+	float: right;
+	background-color: skyblue;
+	padding: 20px;
+	width: 100%;
+
+}
+
+div#second{
+	float: left;
+	padding-top: 50px;
+    padding-left: 200px;
+
+
+}
+div#third{
+	float: right;
+	height: 400px;
+	width: 400px;
+	margin: 50px;
+	border: 5px solid;
+	background-color: pink;
+}
+
+div#fourth{
+	
+	padding: 400px;
+	background-color: lightgreen;
+	text-align: center;
+}
+
+div#fifth{
+	text-align: center;
+	border: 10px;
+}
