@@ -1,0 +1,37 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family:monospace;
+}
+
+header{
+	background-color:violet;
+	height: 40%;
+}
+
+ul{
+	float: right;
+	list-style: none;
+	margin-top: 40px;
+
+
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #361515;
+	padding: 7px;
+	border: 1px solid #110202;
+	transition: 0.6s ease;
+}
+
+ul li a:hover
+{
+	background-color: #fff;
+	color: #361515;
+}
+img{size: 400px;}
