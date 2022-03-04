@@ -12,17 +12,18 @@ body{
 	background-color: lightgreen;
 }
 
+
 ul{
 	float: right;
 	list-style: none;
 	margin-top: 40px;
-
-
 }
+
 
 ul li{
 	display: inline-block;
 }
+
 
 ul li a{
 	text-decoration: initial;
@@ -31,6 +32,7 @@ ul li a{
 	border: 1px solid #110202;
 	transition: 0.6s ease;
 }
+
 
 ul li a:hover
 {
@@ -44,27 +46,26 @@ form{
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
-  
+  }
 
 
+  h1{
+  	text-align: center;
+ }
 
-
-}
 div#first{
 	float: right;
 	background-color: skyblue;
 	padding: 20px;
 	width: 100%;
-
 }
 
 div#second{
 	float: left;
 	padding-top: 50px;
     padding-left: 200px;
-
-
 }
+
 div#third{
 	float: right;
 	height: 400px;
@@ -75,7 +76,6 @@ div#third{
 }
 
 div#fourth{
-	
 	padding: 400px;
 	background-color: lightgreen;
 	text-align: center;
@@ -83,5 +83,12 @@ div#fourth{
 
 div#fifth{
 	text-align: center;
-	border: 10px;
+}
+
+div-container{
+	display: grid;
+	grid grid-template-columns: auto;
+	grid grid-template-rows: auto;
+	grid grid-gap: 20px;
+	background-color: lightblue;
 }
