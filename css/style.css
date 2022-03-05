@@ -62,14 +62,38 @@ div#first{
 div#second{
 	float: left;
     margin: 20px;
-    
+    padding-left: 500px;
+   border: none;
+   border-radius: 20px;
+}
+
+.input-field{
+	width: 400px;
+	height: 40px;
+	margin-top: 20px;
+	padding left: 10px;
+	border: 1px solid #777;
+	border-radius: 14px;
+	outline: none;
+
+}
+.btn{
+	font-size: 12px;
+	background-color: skyblue;
+	margin-top: 18px;
+	padding : 10px;
+	border: none;
+	border-radius: 20px;
+	color: orangered;
+	outline: none;
+	cursor: pointer;
+
 
 }
 
 
-
 div#fourth{
-	padding: 400px;
+	padding: 300px;
 	background-color: lightgreen;
 	text-align: center;
 }
