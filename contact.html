@@ -1,37 +1,55 @@
 <!DOCTYPE html>
 <html>
-<head>
-		<title>assignment</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-<body>
-<header>
-	<div class="content" id="first">
-		<h1>Soyal Shrestha</h1>
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="portfolio.html">Portfilio</a></li>
-			<li><a href="contact.html">Contact</a></li>
-			<li><a href="blog.html">Blog</a></li>
-			<li><a href="sitereport.html">Site report</a></li>
-		</ul>
-	</div>	
-</header>
+  <head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="content" id="first">
+          <div class="logo">
+            <a href="index.html">Soyal Shrestha</a>
+          </div>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="sitereport.html">Site report</a></li>
+          </ul>
+        </div>
+      </nav>
 
-<div class="content" id="second">
-<h2>Contact Form</h2>
-	
-	<form>
-	    
-	    First Name :<input type="text" class="input-field" placeholder="Your First Name"><br>
-        Last Name :<input type="text" class="input-field" placeholder="Your Last Name"><br>
-        Email-ID :<input type="text" class="input-field" placeholder="Your Email-Id"> <br>
-        Password :<input type="password" class="input-field" placeholder="Your Password"><br>
-        Select Gender :<input type="radio" name="Gender">Male  
-        <input type="radio" name="Gender" >Female
-        <button type="submit" value="submit" class="btn">SUBMIT</button>             
-    
-    </form>
-</div>		
-</body>
+      <div class="container-form">
+        <h2>Contact Form</h2>
+        <form>
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
+
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+          <label for="email">Email-ID</label>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Your Email ID"
+          />
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </header>
+  </body>
 </html>
