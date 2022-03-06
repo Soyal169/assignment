@@ -131,7 +131,6 @@ nav .content {
 .row {
   height: 100vh;
   padding-top: 50px;
-  padding-left: 400px;
   display: flex;
   background: #000;
 }
